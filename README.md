@@ -22,7 +22,7 @@ To create a new sample data set,
     - add the data set variable to `__all__`. Then,
     - update the `__version__` string, and
 - edit this README to tell about the data set. Also, don’t forget to
-- change `CHANGE_THIS` in `tests/test_data_sets.py`.
+- change `CHANGE_THIS` in `tests/conftest.py`.
 
 Once you have added all data sets, add a tag (equal to `f"v{__version__}`) and
 push the changes and tags.
