@@ -41,7 +41,9 @@ Repository = "https://github.com/r5py/r5py.sampledata.CHANGE_THIS.git"
 "Bug tracker" = "https://github.com/r5py/r5py.sampledata.CHANGE_THIS/issues"
 
 [tool.pytest.ini_options]
-test_paths = ["tests"]
+addopts = "-p no:faulthandler"
+pythonpath = ["src"]
+testpaths = ["tests"]
 
 [tool.setuptools.dynamic]
 version = {attr = "r5py.sampledata.CHANGE_THIS.__version__"}
