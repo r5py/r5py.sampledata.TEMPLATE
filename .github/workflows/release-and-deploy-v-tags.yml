@@ -35,7 +35,7 @@ jobs:
         shell: bash -l {0}
         run: |
           pip install .[test]
-          pip uninstall .
+          pip -y uninstall .
 
       - name: Run tests
         run: python -m pytest
