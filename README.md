@@ -17,8 +17,8 @@ To create a new sample data set,
 - and edit `src/r5py/sampledata/NOW_CHANGED_DIRECTORY_NAME/__init__.py`: 
     - change `BASE_URL`, and
     - include one variable per data set that is an
-      `r5py.util.data_set.DataSet()` with the source url and the SHA256
-      checksum as parameters, and
+      `r5py.util.sample_data_set.SampleDataSet()` with the source url and the
+      SHA256 checksum as parameters, and
     - add the data set variable to `__all__`. Then,
     - update the `__version__` string, and
 - edit this README to tell about the data set. Also, don’t forget to
